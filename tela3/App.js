@@ -6,7 +6,7 @@ import { ImageBackground } from 'react-native';
 const App = () => {
   return ( 
     <ScrollView>
-      <ImageBackground source={require('./src/bg-instagram.jpg')} 
+      <ImageBackground source={require('./src/bg-instagram.jpg')}
         style={styles.imageBackground}
         style={{width: '100%', height: '100%'}}>
         <View>
